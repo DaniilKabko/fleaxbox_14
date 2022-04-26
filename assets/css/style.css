@@ -10,7 +10,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-
+.main-conteiner {
+  background-image: url(./../images/cafe.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: right bottom;
+}
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -40,7 +46,6 @@ body {
 .menu__item + .menu__item{
   margin-left: 1em;
 }
-
 
 .btn-contact {
   padding: 1em 1.5em;
